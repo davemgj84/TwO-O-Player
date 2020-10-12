@@ -49,7 +49,7 @@ class Game
       puts
       puts "#{@current_player.name} wins with a score of #{@current_player.format_lives}!"
       puts
-      puts "-------- GAME OVER --------"
+      puts "~~~~~~~~ GAME OVER ~~~~~~~~"
       puts
       puts "Thanks for playing! Goodbye!"
       puts
