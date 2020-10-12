@@ -1,7 +1,15 @@
 require "./game"
-require "./input_output"
-require "./player"
-require "./question"
 
+new_game = Game.new
 
+puts
 
+puts "Welcome to the Math Game!!!"
+
+puts
+
+puts "Hit enter to begin!"
+
+gets.chomp
+
+new_game.start

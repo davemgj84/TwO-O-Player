@@ -6,6 +6,10 @@
 #   Turn? (game loop?)
 #   can call lives_reducer method
 #   use gameIO to get/return IO
+#   input_output
+#   user input answer
+#   game output correct/incorrect?
+#   question output, score output, winner output?
 
 # Player
 #   attr_reader :name
@@ -16,15 +20,9 @@
 
 # Question
 #   attr_reader: question
+#   attr_reader :answer
 #   method to generate 2 numbers between 1-20
-#   interpolate into a math problem?
-
-# input_output
-#   user input answer
-#   game output correct/incorrect?
-#   question output, score output, winner output?
-
-
+#   interpolate into a math problem
 
 #   .exe (runner - not a class!!!)
 #   intialize new game IO, 2 player instances, question generator, game(pass gameIO, 2 Players, question generator)

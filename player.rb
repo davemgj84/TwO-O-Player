@@ -14,8 +14,12 @@ class Player
     @lives = 3
   end
 
-  def death
+  def lose_life
     @lives = @lives - 1
+  end
+
+  def death?
+    @lives == 0 
   end
 
   def format_lives
@@ -23,3 +27,7 @@ class Player
   end
 
 end
+
+
+
+
