@@ -53,7 +53,6 @@ class Game
       end
       puts "\nP1: #{@p1.format_lives} vs P2: #{@p2.format_lives}"
       swap_player
-      
     end
   end
 
