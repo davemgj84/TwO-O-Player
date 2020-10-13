@@ -42,6 +42,7 @@ class Game
 
   def round
     while @p1.alive? && @p2.alive?
+      puts "~~~~~~~~ NEW TURN ~~~~~~~~"
       start_turn
       response = gets.chomp.to_i
       if @question.check_response(response)
@@ -52,6 +53,7 @@ class Game
       end
       puts "\nP1: #{@p1.format_lives} vs P2: #{@p2.format_lives}"
       swap_player
+      
     end
   end
 
