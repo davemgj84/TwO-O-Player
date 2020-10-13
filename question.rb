@@ -15,7 +15,11 @@ class Question
   end
   
   def ask(curent_player)
-    puts "#{curent_player}: What does #{@num1} plus #{@num2} equal?"
+    puts "\n#{curent_player}: What does #{@num1} plus #{@num2} equal?"
+  end
+
+  def check_response(response)
+    @answer == response
   end
 
 end

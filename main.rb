@@ -2,13 +2,9 @@ require "./game"
 
 new_game = Game.new
 
-puts
+puts "\nWelcome to the Math Game!!!"
 
-puts "Welcome to the Math Game!!!"
-
-puts
-
-puts "Hit enter to begin!"
+puts "\nHit enter to begin!"
 
 gets.chomp
 

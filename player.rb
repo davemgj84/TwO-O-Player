@@ -18,8 +18,8 @@ class Player
     @lives = @lives - 1
   end
 
-  def death?
-    @lives == 0 
+  def alive?
+    @lives > 0 
   end
 
   def format_lives
